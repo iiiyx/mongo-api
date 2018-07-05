@@ -1,0 +1,38 @@
+{
+  "name": "smotri-tut-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiiyx/mongo-api.git"
+  },
+  "keywords": [
+    "mongo",
+    "rest",
+    "api"
+  ],
+  "author": "osob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iiiyx/mongo-api/issues"
+  },
+  "homepage": "https://github.com/iiiyx/mongo-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.7"
+  }
+}
